@@ -98,9 +98,11 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 5
 
-Now the function *findProducts()* should be able to return one or more products with new criteria *belowDuration*.
+Now the function *findProducts()* should be able to return one or more products with new criteria *belowDuration* as *belowCost*.
 
-Write new tests to verify *findProducts()*.
+The function *findProducts()* should now be called with one parameter *criterias*, it will be an object like this for example : criterias = {belowCost: 20, belowDuration: 150}.
+
+Write new tests to verify *findProducts()* with cross criterias.
 
 After finish this exercise, please commit all your files.
 
