@@ -44,7 +44,9 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 3
 
-Please refactor *Product* and these sub classes with the ES2015 syntax.
+Please refactor *Product*, *Book*, *DVD*, *VideoGame* classes with the ES2015 syntax.
+
+Refactor the method *toString()* with the ES2015 syntax ("Template strings").
 
 Don't forget to keep all tests pass.
 
