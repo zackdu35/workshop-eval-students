@@ -2,6 +2,7 @@ var chalk = require('chalk');
 
 var Book = require ('./product').Book;
 var DVD = require ('./product').DVD;
+var service = require ('./rateExchangeService').service;
 
 var products = [
   // Books
@@ -40,12 +41,16 @@ function calculateTotalprice(products) {
   return sum;
 }
 
-function toString() {
+function toString(currency, rateCurrency) {
   var result = chalk.green('The store is open, ' + products.length + ' articles are available :');
   for (var i = products.length - 1; i >= 0; i--) {
-    result += '\n - ' + products[i].toString();
+    result += '\n - ' + products[i].toString(currency, rateCurrency);
   }
   return result;
+}
+
+function open() {
+  console.log(toString());
 }
 
 module.exports = {
@@ -53,6 +58,6 @@ module.exports = {
     products: products,
     findProducts: findProducts,
     calculateTotalprice: calculateTotalprice,
-    toString: toString
+    open: open
   }
 };

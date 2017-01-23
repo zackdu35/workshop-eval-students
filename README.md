@@ -117,3 +117,15 @@ After finish this exercise, please commit all your files.
   git add .
 
   git commit -m "Exercise 6"
+
+### Exercise 7
+
+Consider the service dollar euro exchange rate, you should now be able to show the price of a basket with euro.
+
+Don't forget to keep all tests pass.
+
+After finish this exercise, please commit all your files.
+
+  git add .
+
+  git commit -m "Exercise 7"
