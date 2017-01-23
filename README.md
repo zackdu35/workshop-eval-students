@@ -54,7 +54,7 @@ After finish this exercise, please commit all your files.
 
   git commit -m "Exercise 3"
 
-
+### Exercise 4
 
 Add a method *getDuration()* for each product.
 
@@ -84,6 +84,8 @@ For *Book* and *VideoGame*, it returns average of 2 properties *minDuration* and
 
 This "duration" should be mentionned in the *toString()* method.
 
+Write new tests to verify the duration of each type of product.
+
 Don't forget to keep all tests pass.
 
 After finish this exercise, please commit all your files.
@@ -91,3 +93,15 @@ After finish this exercise, please commit all your files.
   git add .
 
   git commit -m "Exercise 4"
+
+### Exercise 5
+
+Now the function *findProducts()* should be able to return one or more products with new criteria *belowDuration*.
+
+Write new tests to verify *findProducts()*.
+
+After finish this exercise, please commit all your files.
+
+  git add .
+
+  git commit -m "Exercise 5"
