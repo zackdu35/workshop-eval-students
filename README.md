@@ -105,3 +105,15 @@ After finish this exercise, please commit all your files.
   git add .
 
   git commit -m "Exercise 5"
+
+### Exercise 6
+
+Refactor *findProducts()* with array methods : *map()*, *reduce()*, *filter()*.
+
+Don't forget to keep all tests pass.
+
+After finish this exercise, please commit all your files.
+
+  git add .
+
+  git commit -m "Exercise 6"
