@@ -1,0 +1,23 @@
+{
+  "name": "workshop-eval-students",
+  "version": "1.0.0",
+  "description": "Workshop to evaluate Ynov's students",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  },
+  "scripts": {
+    "test": "mocha test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinberthelot/workshop-eval-students.git"
+  },
+  "author": "Alvin Berthelot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvinberthelot/workshop-eval-students/issues"
+  },
+  "homepage": "https://github.com/alvinberthelot/workshop-eval-students#readme"
+}
