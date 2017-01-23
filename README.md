@@ -84,7 +84,7 @@ For *Book* and *VideoGame*, it returns average of 2 properties *minDuration* and
   new VideoGame('XCOM: Enemy Unknown', 15.00, 'PC', 300, 1800),
   new VideoGame('Super Smash Bros Melee', 63.90, 'Game Cube', 300, 2400)
 
-This "duration" should be mentionned in the *toString()* method.
+This "duration" should be mentionned in the *toString()* method, for example : "Alice In Wonderland cost 14.99$, duration: 108 minutes".
 
 Write new tests to verify the duration of each type of product.
 
