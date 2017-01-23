@@ -41,3 +41,15 @@ After finish this exercise, please commit all your files.
   git add .
 
   git commit -m "Exercise 2"
+
+### Exercise 3
+
+Please refactor Products and these sub classes with the ES2015 syntax.
+
+Don't forget to keep all tests pass.
+
+After finish this exercise, please commit all your files.
+
+  git add .
+
+  git commit -m "Exercise 3"
