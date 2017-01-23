@@ -1,7 +1,3 @@
-let hello = () => {
-  return 'Hello World !';
-}
+var store = require ('./src/store').store;
 
-module.exports = {
-  hello: hello
-};
+console.log(store.toString());
