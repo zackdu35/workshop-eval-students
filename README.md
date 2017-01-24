@@ -112,7 +112,7 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 6
 
-Refactor *findProducts()* with array methods : *map()*, *reduce()*, *filter()*.
+Refactor *findProducts()* with one or many specific array methods (Cf. https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array[MDN]).
 
 Don't forget to keep all tests pass.
 
