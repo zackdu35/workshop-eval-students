@@ -124,7 +124,7 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 7
 
-Consider the service dollar euro exchange rate, you should now be able to show the price of a basket with euro.
+Consider the service dollar euro exchange rate in file *rateExchangeService.js*, you should now be able to show the price of a basket in dollars and then in euros when function *open()* is called.
 
 Don't forget to keep all tests pass.
 
