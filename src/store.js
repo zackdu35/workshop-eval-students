@@ -38,7 +38,7 @@ function calculateTotalprice(products) {
   for (var i = products.length - 1; i >= 0; i--) {
     sum += products[i].price;
   }
-  return sum;
+  return truncateDecimals(sum,2);
 }
 
 function toString(currency, rateCurrency) {
@@ -48,6 +48,14 @@ function toString(currency, rateCurrency) {
   }
   return result;
 }
+
+truncateDecimals = function (number, digits) {
+    var multiplier = Math.pow(10, digits),
+        adjustedNum = number * multiplier,
+        truncatedNum = Math[adjustedNum > 0 ? 'ceil' : 'floor'](adjustedNum);
+
+    return truncatedNum / multiplier;
+};
 
 function open() {
   console.log(toString());
