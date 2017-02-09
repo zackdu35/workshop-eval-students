@@ -7,7 +7,7 @@ var service = require ('./rateExchangeService').service;
 
 var products = [
   // Books
-  new Book('Preacher Book One', 16.59, '978-1401240455'),
+  new Book("Preacher Book One", 16.59, "978-1401240455"),
   new Book('JavaScript: The Good Parts', 22.79, '978-0596517748'),
   new Book('Alice In Wonderland', 6.99, '978-1619490222'),
   new Book('Harry Potter and the Sorcerer\'s Stone', 6.85, '978-0439708180'),
