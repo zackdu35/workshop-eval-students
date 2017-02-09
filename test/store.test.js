@@ -12,8 +12,12 @@ describe('Store', function() {
     expect(store.products).to.have.lengthOf(store.products.length);
   });
 
-  it('with belowCost criteria should return right products', function() {
-    expect(store.findProducts(20)).to.have.lengthOf(9);
+  it('with belowCost and belowDuration criteria should return right products', function() {
+    expect(store.findProducts({belowCost: 20, belowDuration:150})).to.have.lengthOf(9);
+  });
+
+  it('with none belowCost and none belowDuration criteria should return right products', function() {
+    expect(store.findProducts({belowCost: 0, belowDuration: 0})).to.have.lengthOf(0);
   });
 
   it('with asket should return right price', function() {

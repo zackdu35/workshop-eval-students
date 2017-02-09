@@ -27,12 +27,24 @@ var products = [
 ];
 
 
-function findProducts(belowCost) {
+function findProducts(criteria) {
   var result = [];
+  var belowCost = criteria.belowCost;
+  var belowDuration = criteria.belowDuration;
+
   if(belowCost) {
     for (var i = products.length - 1; i >= 0; i--) {
       var product = products[i];
       if(product.price <= belowCost) {
+        result.push(product);
+      }
+    }
+  }
+
+   if(belowDuration) {
+    for (var i = products.length - 1; i >= 0; i--) {
+      var product = products[i];
+      if(product.belowDuration <= belowDuration) {
         result.push(product);
       }
     }
